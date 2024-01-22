@@ -89,8 +89,12 @@ Inner Circle means it sets T = 1
 | 8     | Red                         | Red                         | Yes!              |
 | 9     | Red                         | Red                         | No!               |
 | 10    | {Red, Green_filter}         | Red                         | No!               |
-| 11    | {Red, Yellow, Green_filter} | Red                         | No!     
+| 11    | {Red, Yellow, Green_filter} | Red                         | No!               |
 
+
+| S3  | S2  | S1  | S0  | Mr_Red | Mr_Yellow | Mr_GreenF | Mr_Green | Sr_Red | Sr_Yellow | Sr_GreenF | Sr_Green | Green_Ped |
+| --- | --- | --- | --- | ------ | --------- | --------- | -------- | ------ | --------- | --------- | -------- | --------- |
+| 0   | 0   | 0   | 0   | 0      | 0         | 0         | 1        | 1      | 0         | 0         | 0        | 0         |
 
 
 
