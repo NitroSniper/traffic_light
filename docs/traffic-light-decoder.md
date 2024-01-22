@@ -127,13 +127,13 @@ Kmap:
 
 ![Alt text](assets/Mr-Yellow-Map.png)
 
-Mr - GreenF: 10
+Mr - GreenF: 10, 11
 
-f(S3, S2, S1, S0) = S3S1S0'
+f(S3, S2, S1, S0) = S3S1
 
 Kmap:
 
-![Alt text](assets/Mr-GreenF-Map.png)
+![Alt text](image.png)
 
 Mr - Green: 0
 
