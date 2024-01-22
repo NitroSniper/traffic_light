@@ -98,6 +98,10 @@ Inner Circle means it sets T = 1
 
 
 
+
+
+
+
 ##### Global Flags (variables):
 * ${Car}_M$ - If there is a car presence on $M_r$
 * ${Car}_S$ - If there is a car presence on $S_r$
@@ -123,7 +127,7 @@ Kmap:
 
 ![Alt text](assets/Mr-Yellow-Map.png)
 
-Mr - Green_Filter: 10
+Mr - GreenF: 10
 
 f(S3, S2, S1, S0) = S3S1S0'
 
@@ -136,6 +140,64 @@ Mr - Green: 0
 f(S3, S2, S1, S0) = S3'S2'S1'S0'
 
 Kmap:
+
 ![Alt text](assets/Mr-Green-Map.png)
 
 
+
+
+
+
+
+
+
+
+Sr - Red: 0, 1, 2, 3, 4, 7, 8, 9, 10, 11
+
+f(S3, S2, S1, S0) = S2' + S1'S0' + S1S0
+
+Kmap:
+
+![Alt text](assets/Sr-Red-Map.png)
+
+Sr - Yellow: 4, 6
+
+f(S3, S2, S1, S0) = S2S0'
+
+Kmap:
+
+![Alt text](assets/Sr-Yellow-Map.png)
+
+Sr - GreenF: 3, 4
+
+f(S3, S2, S1, S0) = S3'S2'S1S0 + S2S1'S0'
+
+Kmap:
+
+![Alt text](assets/Sr-GreenF-Map.png)
+
+Mr - Green: 5
+
+f(S3, S2, S1, S0) = S2S1'S0
+
+Kmap:
+
+![Alt text](image.png)
+
+
+
+
+- Cs|Pb
+- Cs
+- Pb|Cm
+- Pb
+- Cm | !Cs
+
+
+
+- !Pd
+
+
+|     |
+| --- |
+| 0   |
