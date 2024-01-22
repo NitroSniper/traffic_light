@@ -143,15 +143,6 @@ Kmap:
 
 ![Alt text](assets/Mr-Green-Map.png)
 
-
-
-
-
-
-
-
-
-
 Sr - Red: 0, 1, 2, 3, 4, 7, 8, 9, 10, 11
 
 f(S3, S2, S1, S0) = S2' + S1'S0' + S1S0
@@ -182,7 +173,15 @@ f(S3, S2, S1, S0) = S2S1'S0
 
 Kmap:
 
-![Alt text](image.png)
+![Alt text](assets/Sr-Green-Map.png)
+
+Mr - Green: 8
+
+f(S3, S2, S1, S0) = S3S1'S0'
+
+Kmap:
+
+![Alt text](assets/Pedestrian.png)
 
 
 
