@@ -133,7 +133,7 @@ f(S3, S2, S1, S0) = S3S1
 
 Kmap:
 
-![Alt text](image.png)
+![Alt text](assets/Mr-GreenF-Map.png)
 
 Mr - Green: 0
 
@@ -191,6 +191,26 @@ Kmap:
 - Pb|Cm
 - Pb
 - Cm | !Cs
+
+
+
+| State | Reset? | Time |
+| ----- | ------ | ---- |
+| 0     | No     | -    |
+| 1     | No     | -    |
+| 2     | Yes    | 3    |
+| 3     | No     | -    |
+| 4     | No     | -    |
+| 5     | Yes    | 5    |
+| 6     | No     | -    |
+| 7     | Yes    | 3    |
+| 8     | No     | -    |
+| 9     | No     | -    |
+| 10    | No     | -    |
+| 11    | Yes    | 5    |
+
+MinTerms: 2, 5, 7, 11
+Don't Cares: 12, 13, 14, 15
 
 
 
